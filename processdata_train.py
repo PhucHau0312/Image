@@ -120,7 +120,7 @@ for i in all_train_images_in_folder:
 
 # Xử lý ảnh dùng để test (xử lý tương tự)
 
-test_images = set(open(path_to_train_id_file, 'r').read().strip().split('\n'))
+test_images = set(open(path_to_test_id_file, 'r').read().strip().split('\n'))
 test_img = []
 
 for i in all_train_images_in_folder:
